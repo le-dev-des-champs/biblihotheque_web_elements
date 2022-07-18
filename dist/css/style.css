@@ -94,6 +94,7 @@ br {
   font-family: "poppins";
   src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
 }
+/** FONT-SIZE */
 h1,
 h2,
 h3 {
@@ -163,6 +164,50 @@ ul li {
 a {
   font-size: 20px;
   line-height: 24px;
+}
+
+.fz-xxxxs {
+  font-size: 8px;
+}
+
+.fz-xxxs {
+  font-size: 12px;
+}
+
+.fz-xxs {
+  font-size: 14px;
+}
+
+.fz-xs {
+  font-size: 16px;
+}
+
+.fz-x {
+  font-size: 18px;
+}
+
+.fz-m {
+  font-size: 20px;
+}
+
+.fz-xm {
+  font-size: 24px;
+}
+
+.fz-xxm {
+  font-size: 28px;
+}
+
+.fz-l {
+  font-size: 38px;
+}
+
+.fz-xl {
+  font-size: 48px;
+}
+
+.fz-xxl {
+  font-size: 56px;
 }
 
 /** PRIMARY */
