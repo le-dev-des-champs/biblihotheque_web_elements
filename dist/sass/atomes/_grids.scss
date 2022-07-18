@@ -1,0 +1,61 @@
+.fluid-container{
+    min-height: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:$spacing-s $spacing-m;
+}
+.container{
+    min-height: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:$spacing-s $spacing-m;
+    @media screen and (max-width: 992px){
+       width: 100%;
+       padding:$spacing-s $spacing-s;
+    }
+        
+}
+.line{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gr-2{
+    width: 100%;
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: $spacing-xs;
+    padding: $spacing-xs;
+}
+.gr-3{
+    width: 100%;
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: $spacing-xs;
+    padding: $spacing-xs;
+}
+.gr-4{
+    width: 100%;
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: $spacing-xs;
+    padding: $spacing-xs;
+}
+[class^="gr-"]{
+    @media screen and (max-width: 992px){
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: $spacing-xs;
+        padding: $spacing-xs;
+    }
+    @media screen and (max-width: 768px){
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: $spacing-xs;
+        padding: $spacing-xs;
+    }
+}
