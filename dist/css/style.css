@@ -552,5 +552,88 @@ a {
 }
 
 /** BTN-GROUPER */
+.tag {
+  font-size: inherit;
+  margin: 0 4px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.tag-primary {
+  background-color: #2D68FE;
+  color: #fcfcfc;
+}
+
+.tag-secondary {
+  background-color: #2D68FE;
+  color: #fcfcfc;
+}
+
+.tag-success {
+  background-color: #198754;
+  color: #fcfcfc;
+}
+
+.tag-warning {
+  background-color: #ffc107;
+  color: #fcfcfc;
+}
+
+.tag-danger {
+  background-color: #dc3545;
+  color: #fcfcfc;
+}
+
+.tag-info {
+  background-color: #0dcaf0;
+  color: #fcfcfc;
+}
+
+.tag-light {
+  background-color: #fcfcfc;
+  color: #000;
+}
+
+.tag-dark {
+  background-color: #000;
+  color: #fcfcfc;
+}
+
+/** BADGE */
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: inherit;
+  margin: 0 4px;
+  padding: 4px 8px;
+  border-radius: 50%;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.badge-top-right {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+}
+
+.badge-top-left {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+}
+
+.badge-bottom-right {
+  position: absolute;
+  bottom: -12px;
+  right: -12px;
+}
+
+.badge-bottom-left {
+  position: absolute;
+  bottom: -12px;
+  left: -12px;
+}
 
 /*# sourceMappingURL=style.css.map */

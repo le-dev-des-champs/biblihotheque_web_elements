@@ -1,0 +1,72 @@
+.tag{
+    font-size: inherit;
+    margin: 0 $spacing-xxxs;
+    padding: $spacing-xxxs;
+    border-radius: 5px;
+}
+.tag-primary{
+    background-color: $color-primaire;
+    color: $color-light;
+}
+.tag-secondary{
+    background-color: $color-secondaire;
+    color: $color-light;
+}
+.tag-success{
+    background-color: $color-success;
+    color: $color-light;
+}
+.tag-warning{
+    background-color: $color-warning;
+    color: $color-light;
+}
+.tag-danger{
+    background-color: $color-danger;
+    color: $color-light;
+}
+.tag-info{
+    background-color: $color-info;
+    color: $color-light;
+}
+.tag-light{
+    background-color: $color-light;
+    color: $color-dark;
+}
+.tag-dark{
+    background-color: $color-dark;
+    color: $color-light;
+}
+/** BADGE */
+.badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: inherit;
+    margin: 0 $spacing-xxxs;
+    padding:$spacing-xxxs $spacing-xxs;
+    border-radius: 50%;
+    min-width: 20px;
+    min-height: 20px;
+    
+
+}
+.badge-top-right{
+    position: absolute;
+    top: -$spacing-xs;
+    right: -$spacing-xs;
+}
+.badge-top-left{
+    position: absolute;
+    top: -$spacing-xs;
+    left: -$spacing-xs;
+}
+.badge-bottom-right{
+    position: absolute;
+    bottom: -$spacing-xs;
+    right: -$spacing-xs;
+}
+.badge-bottom-left{
+    position: absolute;
+    bottom: -$spacing-xs;
+    left: -$spacing-xs;
+}
