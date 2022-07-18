@@ -1,6 +1,79 @@
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
 }
+.btn-grouper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .btn{
+        margin: 0 0;
+        padding: $spacing-xxs $spacing-m;
+        font-size: 18px;
+        font-family: "poppins", sans-serif;
+    }
+    .btn-lg{
+        margin: 0 0;
+        padding: $spacing-xs $spacing-m;
+        font-size: $fz-xm;
+        font-family: "poppins", sans-serif;
+    }
+    .btn-small{
+        margin: 0 0;
+        padding: $spacing-xxxs $spacing-xxs;
+        font-size: $fz-x;
+        font-family: "poppins", sans-serif;
+    }
+    .btn:first-child,
+    .btn-lg:first-child,
+    .btn-small:first-child{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .btn:last-child,
+    .btn-small:last-child,
+    .btn-lg:last-child
+    {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+.btn-grouper-verticale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .btn{
+        width: 100%;
+        margin: 0 0;
+        padding: $spacing-xxs $spacing-m;
+        font-size: 18px;
+        font-family: "poppins", sans-serif;
+    }
+    .btn-lg{
+        margin: 0 0;
+        padding: $spacing-xs $spacing-m;
+        font-size: $fz-xm;
+        font-family: "poppins", sans-serif;
+    }
+    .btn-small{
+        margin: 0 0;
+        padding: $spacing-xxxs $spacing-xxs;
+        font-size: $fz-x;
+        font-family: "poppins", sans-serif;
+    }
+    .btn:first-child,
+    .btn-lg:first-child,
+    .btn-small:first-child{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .btn:last-child,
+    .btn-small:last-child,
+    .btn-lg:last-child
+    {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
 .btn{
     margin: $spacing-xxxs;
     padding: $spacing-xxs $spacing-m;
@@ -88,7 +161,7 @@
 }
 .btn-outline-primary{
     border: 1px solid $color-primaire;
-    background-color: transparent;
+    background-color: $transparent;
     color: $color-primaire;
     border-color: $color-primaire;
     &:hover{
@@ -98,7 +171,7 @@
 }
 .btn-outline-secondary{
     border: 1px solid $color-secondaire;
-    background-color: transparent;
+    background-color: $transparent;
     color: $color-secondaire;
     border-color: $color-secondaire;
     &:hover{
@@ -108,7 +181,7 @@
 }
 .btn-outline-success{
     border: 1px solid $color-success;
-    background-color: transparent;
+    background-color: $transparent;
     color: $color-success;
     border-color: $color-success;
     &:hover{
@@ -118,7 +191,7 @@
 }
 .btn-outline-info{
     border: 1px solid $color-info;
-    background-color: transparent;
+    background-color: $transparent;
     color: $color-info;
     border-color: $color-info;
     &:hover{
@@ -128,7 +201,7 @@
 }
 .btn-outline-danger{
     border: 1px solid $color-danger;
-    background-color: transparent;
+    background-color: $transparent;
     color: $color-danger;
     border-color: $color-danger;
     &:hover{
@@ -166,3 +239,4 @@
         color: $color-light;
     }
 }
+/** BTN-GROUPER */
