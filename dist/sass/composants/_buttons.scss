@@ -1,0 +1,168 @@
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.btn{
+    margin: $spacing-xxxs;
+    padding: $spacing-xxs $spacing-m;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
+}
+.bdr-rounded{
+    border-radius: $spacing-xxs;
+}
+.btn-lg{
+    margin: $spacing-xxs;
+    padding: $spacing-xs $spacing-m;
+    font-size: $fz-xm;
+    font-family: "poppins", sans-serif;
+}
+.btn-small{
+    margin: $spacing-xxxs;
+    padding: $spacing-xxxs $spacing-xxs;
+    font-size: $fz-x;
+    font-family: "poppins", sans-serif;
+}
+.btn-primary{
+    background-color: $color-primaire;
+    color: $color-light;
+    border-color: $color-primaire;
+    &:hover{
+        background-color: $color-primaire-dark;
+    }
+}
+.btn-secondary{
+    background-color: $color-secondaire;
+    color: $color-light;
+    border-color: $color-secondaire;
+    &:hover{
+        background-color: $color-secondaire-dark;
+    }
+}
+.btn-success{
+    background-color: $color-success;
+    color: $color-light;
+    border-color: $color-success;
+    &:hover{
+        background-color: $color-success-dark;
+    }
+}
+.btn-info{
+    background-color: $color-info;
+    color: $color-light;
+    border-color: $color-info;
+    &:hover{
+        background-color: $color-info-dark;
+    }
+}
+.btn-danger{
+    background-color: $color-danger;
+    color: $color-light;
+    border-color: $color-danger;
+    &:hover{
+        background-color: $color-danger-dark;
+    }
+}
+.btn-warning{
+    background-color: $color-warning;
+    color: $color-light;
+    border-color: $color-warning;
+    &:hover{
+        background-color: $color-warning-dark;
+    }
+}
+.btn-light{
+    background-color: $color-light;
+    color: $color-dark;
+    border-color: $color-light;
+    &:hover{
+        background-color: $color-grey-light;
+    }
+}
+.btn-dark{
+    background-color: $color-dark;
+    color: $color-light;
+    border-color: $color-dark;
+    &:hover{
+        background-color: $color-grey-dark;
+    }
+}
+.btn-outline-primary{
+    border: 1px solid $color-primaire;
+    background-color: transparent;
+    color: $color-primaire;
+    border-color: $color-primaire;
+    &:hover{
+        background-color: $color-primaire;
+        color: $color-light;
+    }
+}
+.btn-outline-secondary{
+    border: 1px solid $color-secondaire;
+    background-color: transparent;
+    color: $color-secondaire;
+    border-color: $color-secondaire;
+    &:hover{
+        background-color: $color-secondaire;
+        color: $color-light;
+    }
+}
+.btn-outline-success{
+    border: 1px solid $color-success;
+    background-color: transparent;
+    color: $color-success;
+    border-color: $color-success;
+    &:hover{
+        background-color: $color-success;
+        color: $color-light;
+    }
+}
+.btn-outline-info{
+    border: 1px solid $color-info;
+    background-color: transparent;
+    color: $color-info;
+    border-color: $color-info;
+    &:hover{
+        background-color: $color-info;
+        color: $color-light;
+    }
+}
+.btn-outline-danger{
+    border: 1px solid $color-danger;
+    background-color: transparent;
+    color: $color-danger;
+    border-color: $color-danger;
+    &:hover{
+        background-color: $color-danger;
+        color: $color-light;
+    }
+}
+.btn-outline-warning{
+    border: 1px solid $color-warning;
+    background-color: transparent;
+    color: $color-warning;
+    border-color: $color-warning;
+    &:hover{
+        background-color: $color-warning;
+        color: $color-light;
+    }
+}
+.btn-outline-light{
+    border: 1px solid $color-light;
+    background-color: transparent;
+    color: $color-light;
+    border-color: $color-light;
+    &:hover{
+        background-color: $color-light;
+        color: $color-dark;
+    }
+}
+.btn-outline-dark{
+    border: 1px solid $color-dark;
+    background-color: transparent;
+    color: $color-dark;
+    border-color: $color-dark;
+    &:hover{
+        background-color: $color-dark;
+        color: $color-light;
+    }
+}

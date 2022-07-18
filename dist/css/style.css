@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+button {
+  background-color: #fff;
+  border: none;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,6 +56,16 @@ table {
   border-spacing: 0;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /** A NE PAS COPIER */
 div {
   background-color: rgba(138, 179, 255, 0.582);
@@ -67,6 +82,97 @@ br {
   min-height: 5px;
 }
 
+@font-face {
+  font-family: "Sintony";
+  src: url("../fonts/Sintony/Sintony-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Sintony-bold";
+  src: url("../fonts/Sintony/Sintony-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+h1,
+h2,
+h3 {
+  font-family: "Sintony-bold", sans-serif;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+h4,
+h5,
+h6,
+p {
+  font-family: "Poppins", sans-serif;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 52px;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 38px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-align: justify;
+  line-height: 24px;
+}
+
+ul {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+ul li {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+
+a {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/** PRIMARY */
+/** SECONDAIRE */
+/** TERTIARE  */
+/** QUINQUENAIRE  */
+/** INFOS  */
+/** SUCCESS  */
+/** DANGER  */
+/** WARNING  */
 .fluid-container {
   min-height: 100px;
   width: 100%;
@@ -101,8 +207,8 @@ br {
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 8px;
-  padding: 8px;
+  grid-gap: 12px;
+  padding: 12px;
 }
 
 .gr-3 {
@@ -110,8 +216,8 @@ br {
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 8px;
-  padding: 8px;
+  grid-gap: 12px;
+  padding: 12px;
 }
 
 .gr-4 {
@@ -119,23 +225,212 @@ br {
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 8px;
-  padding: 8px;
+  grid-gap: 12px;
+  padding: 12px;
 }
 
 @media screen and (max-width: 992px) {
   [class^=gr-] {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 8px;
-    padding: 8px;
+    grid-gap: 12px;
+    padding: 12px;
   }
 }
 @media screen and (max-width: 768px) {
   [class^=gr-] {
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 8px;
-    padding: 8px;
+    grid-gap: 12px;
+    padding: 12px;
   }
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+
+.btn {
+  margin: 4px;
+  padding: 8px 24px;
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+}
+
+.bdr-rounded {
+  border-radius: 8px;
+}
+
+.btn-lg {
+  margin: 8px;
+  padding: 12px 24px;
+  font-size: 24px;
+  font-family: "poppins", sans-serif;
+}
+
+.btn-small {
+  margin: 4px;
+  padding: 4px 8px;
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+}
+
+.btn-primary {
+  background-color: #2D68FE;
+  color: #fcfcfc;
+  border-color: #2D68FE;
+}
+.btn-primary:hover {
+  background-color: #0f5fd5;
+}
+
+.btn-secondary {
+  background-color: #2D68FE;
+  color: #fcfcfc;
+  border-color: #2D68FE;
+}
+.btn-secondary:hover {
+  background-color: #0f5fd5;
+}
+
+.btn-success {
+  background-color: #198754;
+  color: #fcfcfc;
+  border-color: #198754;
+}
+.btn-success:hover {
+  background-color: #146c43;
+}
+
+.btn-info {
+  background-color: #0dcaf0;
+  color: #fcfcfc;
+  border-color: #0dcaf0;
+}
+.btn-info:hover {
+  background-color: #09a9c9;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fcfcfc;
+  border-color: #dc3545;
+}
+.btn-danger:hover {
+  background-color: #bb2d3b;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #fcfcfc;
+  border-color: #ffc107;
+}
+.btn-warning:hover {
+  background-color: #ecb204;
+}
+
+.btn-light {
+  background-color: #fcfcfc;
+  color: #000;
+  border-color: #fcfcfc;
+}
+.btn-light:hover {
+  background-color: #eeeded;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fcfcfc;
+  border-color: #000;
+}
+.btn-dark:hover {
+  background-color: #333;
+}
+
+.btn-outline-primary {
+  border: 1px solid #2D68FE;
+  background-color: transparent;
+  color: #2D68FE;
+  border-color: #2D68FE;
+}
+.btn-outline-primary:hover {
+  background-color: #2D68FE;
+  color: #fcfcfc;
+}
+
+.btn-outline-secondary {
+  border: 1px solid #2D68FE;
+  background-color: transparent;
+  color: #2D68FE;
+  border-color: #2D68FE;
+}
+.btn-outline-secondary:hover {
+  background-color: #2D68FE;
+  color: #fcfcfc;
+}
+
+.btn-outline-success {
+  border: 1px solid #198754;
+  background-color: transparent;
+  color: #198754;
+  border-color: #198754;
+}
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: #fcfcfc;
+}
+
+.btn-outline-info {
+  border: 1px solid #0dcaf0;
+  background-color: transparent;
+  color: #0dcaf0;
+  border-color: #0dcaf0;
+}
+.btn-outline-info:hover {
+  background-color: #0dcaf0;
+  color: #fcfcfc;
+}
+
+.btn-outline-danger {
+  border: 1px solid #dc3545;
+  background-color: transparent;
+  color: #dc3545;
+  border-color: #dc3545;
+}
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fcfcfc;
+}
+
+.btn-outline-warning {
+  border: 1px solid #ffc107;
+  background-color: transparent;
+  color: #ffc107;
+  border-color: #ffc107;
+}
+.btn-outline-warning:hover {
+  background-color: #ffc107;
+  color: #fcfcfc;
+}
+
+.btn-outline-light {
+  border: 1px solid #fcfcfc;
+  background-color: transparent;
+  color: #fcfcfc;
+  border-color: #fcfcfc;
+}
+.btn-outline-light:hover {
+  background-color: #fcfcfc;
+  color: #000;
+}
+
+.btn-outline-dark {
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  border-color: #000;
+}
+.btn-outline-dark:hover {
+  background-color: #000;
+  color: #fcfcfc;
 }
 
 /*# sourceMappingURL=style.css.map */

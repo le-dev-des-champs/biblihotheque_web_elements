@@ -1,0 +1,61 @@
+h1,
+h2,
+h3{
+    font-family: "Sintony-bold", sans-serif;
+    margin-top: $spacing-xxs;
+    margin-bottom: $spacing-xxs;
+}
+h4,
+h5,
+h6,
+p{
+    font-family: "Poppins", sans-serif;
+    margin-top: $spacing-xxs;
+    margin-bottom: $spacing-xxs;
+}
+
+h1{
+    font-size: $fz-xl;
+    line-height: 52px;
+}
+h2{
+    font-size: $fz-l;
+    line-height: 38px;
+}
+h3{
+    font-size: $fz-xxm;
+    line-height: 32px;
+}
+h4{
+    font-size: $fz-xm;
+    line-height: 28px;
+}
+h5{
+    font-size: $fz-x;
+    line-height: 22px;
+}
+h6{
+    font-size: $fz-xs;
+    line-height: 22px;
+}
+p{
+    font-size: $fz-m;
+    margin-top: $spacing-xs;
+    margin-bottom: $spacing-xs;
+    text-align: justify;
+    line-height: $fz-xm;
+}
+ul{
+    margin-top: $spacing-xs;
+    margin-bottom: $spacing-xs;
+    li{
+        font-size: $fz-m;
+        margin-top: 0;
+        margin-bottom: $spacing-xxs;
+        margin-left: $spacing-s;
+    }
+}
+a{
+    font-size: $fz-m;
+    line-height: $fz-xm;
+}

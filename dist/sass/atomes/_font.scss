@@ -1,0 +1,30 @@
+// @font-face {
+//     font-family: "Open Sans";
+//     src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+//            url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+//    }
+
+
+@font-face {
+    font-family: 'Sintony';
+    src: url("../fonts/Sintony/Sintony-Regular.ttf") format("ttf"),
+}
+@font-face {
+    font-family: "Sintony-bold";
+    src: url("../fonts/Sintony/Sintony-Bold.ttf") format("truetype"),
+}
+@font-face {
+    font-family: "poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype"),
+}
+$fz-xxxs: 8px;
+$fz-xxxxs: 12px;
+$fz-xxs: 14px;
+$fz-xs: 16px;
+$fz-x: 18px;
+$fz-m: 20px;
+$fz-xm: 24px;
+$fz-xxm: 28px;
+$fz-l: 38px;
+$fz-xl: 48px;
+$fz-xxl: 56px;
