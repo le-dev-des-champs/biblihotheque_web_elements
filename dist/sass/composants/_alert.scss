@@ -1,0 +1,94 @@
+.alert-box{
+  margin: $spacing-xs $spacing-xxs;
+  padding: $spacing-xs $spacing-xxs;
+  border-radius: 10px;
+}
+.alert-block{
+  padding: $spacing-xs $spacing-xxs;
+  margin: $spacing-xs $spacing-xxs;
+
+}
+.alert-success{
+  background-color: $color-success-very-light;
+  color: $color-text-success;
+  a.alert-link{
+    color: $color-text-success-dark;
+  }
+}
+.alert-danger{
+  background-color: $color-danger-very-light;
+  color: $color-text-danger;
+  a.alert-link{
+    color: $color-text-danger-dark;
+  }
+}
+.alert-info{
+  background-color: $color-info-very-light;
+  color: $color-text-info;
+  a.alert-link{
+    color: $color-text-info-dark;
+  }
+}
+.alert-warning{
+  background-color: $color-warning-very-light;
+  color: $color-text-warning;
+  a.alert-link{
+    color: $color-text-warning-dark;
+  }
+}
+.alert-box-warning{
+  background-color: $color-warning-very-light;
+  color: $color-text-warning;
+  border-left: $spacing-xxxs solid $color-warning-dark;
+  h1,h2,h3,h4,h5,h6{
+    color: $color-text-warning-dark;
+  }
+  hr{
+    border-color: $color-text-warning-dark;
+  }
+  a.alert-link{
+    color: $color-text-warning-dark;
+  }
+}
+.alert-box-success{
+  background-color: $color-success-very-light;
+  color: $color-text-success;
+  border-left: $spacing-xxxs solid $color-success-dark;
+  h1,h2,h3,h4,h5,h6{
+    color: $color-text-success-dark;
+  }
+  hr{
+    border-color: $color-text-success-dark;
+  }
+  a.alert-link{
+    color: $color-text-success-dark;
+  }
+}
+.alert-box-danger{
+  background-color: $color-danger-very-light;
+  color: $color-text-danger;
+  border-left: $spacing-xxxs solid $color-danger-dark;
+  h1,h2,h3,h4,h5,h6{
+    color: $color-text-danger-dark;
+  }
+  hr{
+    border-color: $color-text-danger-dark;
+  }
+  a.alert-link{
+    color: $color-text-danger-dark;
+  }
+}
+.alert-box-info{
+  background-color: $color-info-very-light;
+  color: $color-text-info;
+  border-left: $spacing-xxxs solid $color-info-dark;
+  h1,h2,h3,h4,h5,h6{
+    color: $color-text-info-dark;
+  }
+  hr{
+    border-color: $color-text-info-dark;
+  }
+  a.alert-link{
+    color: $color-text-info-dark;
+  }
+}
