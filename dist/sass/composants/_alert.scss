@@ -44,7 +44,7 @@
     color: $color-text-warning-dark;
   }
   hr{
-    border-color: $color-text-warning-dark;
+    border: 1px solid  $color-warning-dark;
   }
   a.alert-link{
     color: $color-text-warning-dark;
@@ -58,7 +58,7 @@
     color: $color-text-success-dark;
   }
   hr{
-    border-color: $color-text-success-dark;
+    border:1px solid  $color-success-dark;
   }
   a.alert-link{
     color: $color-text-success-dark;
@@ -72,7 +72,7 @@
     color: $color-text-danger-dark;
   }
   hr{
-    border-color: $color-text-danger-dark;
+    border:1px solid  $color-danger-dark;
   }
   a.alert-link{
     color: $color-text-danger-dark;
@@ -86,7 +86,7 @@
     color: $color-text-info-dark;
   }
   hr{
-    border-color: $color-text-info-dark;
+    border:1px solid $color-info-dark;
   }
   a.alert-link{
     color: $color-text-info-dark;

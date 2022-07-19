@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  font-size: 20px;
 }
 ol, ul {
   list-style: none;
@@ -57,16 +58,17 @@ table {
     justify-content: center;
     align-items: center;
 }
+
 /** A NE PAS COPIER */
-div{
-    background-color: rgba(138, 179, 255, 0.582);
-    min-height: 50px;
-}
-.line {
-    min-height: 100px;
-    background-color: rgba(138, 255, 206, 0.582);
-}
-br{
-    height: 5px;
-    min-height: 5px;
-}
+// div{
+//     background-color: rgba(138, 179, 255, 0.582);
+//     min-height: 50px;
+// }
+// .line {
+//     min-height: 100px;
+//     background-color: rgba(138, 255, 206, 0.582);
+// }
+// br{
+//     height: 5px;
+//     min-height: 5px;
+// }

@@ -35,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  font-size: 20px;
 }
 
 ol, ul {
@@ -67,21 +68,6 @@ table {
 }
 
 /** A NE PAS COPIER */
-div {
-  background-color: rgba(138, 179, 255, 0.582);
-  min-height: 50px;
-}
-
-.line {
-  min-height: 100px;
-  background-color: rgba(138, 255, 206, 0.582);
-}
-
-br {
-  height: 5px;
-  min-height: 5px;
-}
-
 @font-face {
   font-family: "Sintony";
   src: url("../fonts/Sintony/Sintony-Regular.ttf") format("ttf");
@@ -245,6 +231,7 @@ a {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin: 8px 0;
 }
 
 .gr-2 {
@@ -333,6 +320,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 8px 24px;
 }
 .btn-grouper-verticale .btn {
   width: 100%;
@@ -615,25 +603,25 @@ a {
 .badge-top-right {
   position: absolute;
   top: -12px;
-  right: -12px;
+  right: -16px;
 }
 
 .badge-top-left {
   position: absolute;
   top: -12px;
-  left: -12px;
+  left: -16px;
 }
 
 .badge-bottom-right {
   position: absolute;
   bottom: -12px;
-  right: -12px;
+  right: -16px;
 }
 
 .badge-bottom-left {
   position: absolute;
   bottom: -12px;
-  left: -12px;
+  left: -16px;
 }
 
 .alert-box {
@@ -688,7 +676,7 @@ a {
   color: #644d07;
 }
 .alert-box-warning hr {
-  border-color: #644d07;
+  border: 1px solid #dba913;
 }
 .alert-box-warning a.alert-link {
   color: #644d07;
@@ -703,7 +691,7 @@ a {
   color: #0f6d41;
 }
 .alert-box-success hr {
-  border-color: #0f6d41;
+  border: 1px solid #146c43;
 }
 .alert-box-success a.alert-link {
   color: #0f6d41;
@@ -718,7 +706,7 @@ a {
   color: #5c0d15;
 }
 .alert-box-danger hr {
-  border-color: #5c0d15;
+  border: 1px solid #bb2d3b;
 }
 .alert-box-danger a.alert-link {
   color: #5c0d15;
@@ -733,7 +721,7 @@ a {
   color: #135c6b;
 }
 .alert-box-info hr {
-  border-color: #135c6b;
+  border: 1px solid #09a9c9;
 }
 .alert-box-info a.alert-link {
   color: #135c6b;
